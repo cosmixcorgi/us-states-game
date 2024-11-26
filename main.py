@@ -34,4 +34,3 @@ while len(guessed_states) < 50:
         y_cor = state_data.y.item()
         t.goto(x_cor, y_cor)
         t.write(answer_state)
-
